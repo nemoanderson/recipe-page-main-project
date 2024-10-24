@@ -12,7 +12,33 @@
     --Rose-800: hsl(332, 51%, 32%);
     --Rose-50: hsl(330, 100%, 98%);
 }
+ @font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 400;
+ }
 
+ @font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 400;
+ }
+
+ @font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 600;
+ }
+
+ @font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 700;
+ }
 
 img {
     max-width: 100%;
