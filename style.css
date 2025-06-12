@@ -1,4 +1,5 @@
-:root {
+@media only screen and (min-width: 0rem) {
+  :root {
     /* Colors */
     --White: hsl(0, 0%, 100%);
 
@@ -11,47 +12,47 @@
 
     --Rose-800: hsl(332, 51%, 32%);
     --Rose-50: hsl(330, 100%, 98%);
-}
- @font-face {
+  }
+  @font-face {
     font-family: "Young Serif";
-    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('ttf');
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.woff2) format("woff2");
     font-style: normal;
     font-weight: 400;
- }
+  }
 
- @font-face {
+  @font-face {
     font-family: "Outfit";
-    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf) format('ttf');
+    src: url(assets/fonts/outfit/Outfit-Regular.woff2) format("woff2");
     font-style: normal;
     font-weight: 400;
- }
+  }
 
- @font-face {
-    font-family: "Outfit";
-    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf) format('ttf');
+  @font-face {
+    font-family: "Outfit-semiBold";
+    src: url(assets/fonts/outfit/Outfit-SemiBold.woff2) format("woff2");
     font-style: normal;
     font-weight: 600;
- }
+  }
 
- @font-face {
-    font-family: "Outfit";
-    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf) format('ttf');
+  @font-face {
+    font-family: "Outfit-bold";
+    src: url(assets/fonts/outfit/Outfit-Bold.woff2) format("woff2");
     font-style: normal;
     font-weight: 700;
- }
+  }
 
-img {
+  img {
     max-width: 100%;
     border-radius: 10px;
   }
 
-html {
+  html {
     font-size: 100%;
-}
+  }
 
-body {
+  body {
     background-color: hsl(30, 54%, 90%);
-    margin: 0; 
+    margin: 0;
     padding: 0;
     /* Typography*/
     font-family: "Outfit", sans-serif;
@@ -61,35 +62,40 @@ body {
     line-height: 1.5;
     font-size: 1rem;
     color: var(--Stone-600);
-}
+  }
 
-h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;     
     font-weight: bold;
-    margin-bottom: 0.5em;    
-}
+    font-style: normal;
+    margin-bottom: 0.5em;
+  }
 
-h1, header {
+  h1,
+  header {
     color: black;
     font-size: 2.6em;
-}
+  }
 
-/* Common CSS rules */
-p {
+  /* Common CSS rules */
+  p {
     margin-bottom: 1em;
-}
+  }
 
-hr {
+  hr {
     border: none;
     background: var(--Stone-150);
-    height: 1px ;
-}
-  
+    height: 1px;
+  }
+
   /* Layout */
-.container {
+  .container {
     width: 53%;
     margin: 9% auto;
     padding: 2em;
@@ -99,66 +105,65 @@ hr {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-}
-
-.prep {
+  }
+/*-- -------------------------- -->
+<---           Prep             -->
+<--- -------------------------- -*/
+  .prep {
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
     padding: 9px;
-}
+  }
 
-.prep h2 {
+  .prep h2 {
     color: var(--Rose-800);
     font-family: outfit;
-}
+  }
 
-.prep ul {
+  .prep ul {
     list-style-type: square;
-}
+  }
 
-.bold {
+  .bold {
     font-weight: bold;
-}
-
-/* List */
-ul {
+  }
+/*-- -------------------------- -->
+<---           Ingredients      -->
+<--- -------------------------- -*/
+  ul {
     list-style-type: square;
-    
-}
+  }
 
-li {
+  li {
     counter-increment: li;
     padding: 6px 19px;
-}
+  }
 
-::marker {
+  ::marker {
     color: var(--Brown-800);
     font-weight: bolder;
-}
-
-
-/* Tables */
-table {
+  }
+/*-- -------------------------- -->
+<---           Nutrition        -->
+<--- -------------------------- -*/
+  table {
     width: 100%;
-}
+  }
 
-table, th, td {
-    
+  table,
+  th,
+  td {
     border-top: solid 1px var(--Stone-150);
     border-collapse: collapse;
     padding: 10px;
-}
+  }
 
-td:nth-child(2) {
+  td:nth-child(2) {
     color: var(--Rose-800);
-    font-weight: 900;  
-}
+    font-weight: 900;
+  }
 
-
-td {
+  td {
     text-align: left;
+  }
 }
-
-/* Footer */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
