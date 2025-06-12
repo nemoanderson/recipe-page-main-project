@@ -52,8 +52,6 @@
 
   body {
     background-color: hsl(30, 54%, 90%);
-    margin: 0;
-    padding: 0;
     /* Typography*/
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -80,7 +78,7 @@
   h1,
   header {
     color: black;
-    font-size: 2.6em;
+    font-size: 2.6rem;
   }
 
   /* Common CSS rules */
@@ -99,25 +97,25 @@
     width: 53%;
     margin: 9% auto;
     padding: 2em;
-    height: 100%;
     background: hsl(0, 0%, 100%);
     max-width: 1000px;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
   }
-/*-- -------------------------- -->
-<---           Prep             -->
-<--- -------------------------- -*/
+    /*-- -------------------------- -->
+    <---           Prep             -->
+    <--- -------------------------- -*/
   .prep {
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-    padding: 9px;
+    padding: 0.3rem 0.6rem; 
   }
 
   .prep h2 {
     color: var(--Rose-800);
     font-family: outfit;
+    font-size: 1.2rem;
   }
 
   .prep ul {
@@ -127,9 +125,9 @@
   .bold {
     font-weight: bold;
   }
-/*-- -------------------------- -->
-<---           Ingredients      -->
-<--- -------------------------- -*/
+    /*-- -------------------------- -->
+    <---           Ingredients      -->
+    <--- -------------------------- -*/
   ul {
     list-style-type: square;
   }
@@ -143,9 +141,9 @@
     color: var(--Brown-800);
     font-weight: bolder;
   }
-/*-- -------------------------- -->
-<---           Nutrition        -->
-<--- -------------------------- -*/
+    /*-- -------------------------- -->
+    <---           Nutrition        -->
+    <--- -------------------------- -*/
   table {
     width: 100%;
   }
